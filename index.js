@@ -4,12 +4,17 @@ gymatoriumLock = false
 
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
+
 // 2nd Floor
 // Do not modify these arrays directly
 let weworkItems = ["loaner laptop", "whiteboard", "conference room", "couch", "printer", "shared table", "Wi-Fi router", "plants", "office chair", "power outlets"];
 let computerLabItems = ["desktop computers", "monitors", "broken laptop", "mice", "Wi-Fi router", "printer", "power strips", "headphones", "USB drives", "chairs", "desks"];
 let mprItems = ["mirrors", "speakers", "chairs", "portable stereo", "projector", "chairs", "posters"];
 
+let loaner = "loaner laptop"
+weworkItems.pop()
+computerLabItems.push(loaner)
+computerLabItems[2]="fixed laptop"
 
 // Commit and show us to unlock the next floor's instructions
 // ----------------------------
